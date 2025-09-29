@@ -133,12 +133,3 @@ legend("topleft",legend=c("주거지", "성벽", "수혈", "분묘", "기타"),
 col=c("#F6130E", "#A73C2F", "#FCB90D", "#6C6607", "#9EC41B"),
 lwd=2, cex=0.8, bg="white")
 dev.off()
-
-test1 <- calibrate(x=data[64, ]$BP, errors=data[64, ]$Error, calCurves="intcal20", ids=1, normalised=FALSE, verbose=FALSE)
-test2 <- calibrate(x=data[66, ]$BP, errors=data[66, ]$Error, calCurves="intcal20", ids=2, normalised=FALSE, verbose=FALSE)
-testtt <- combine(test1, test2)
-tiff(file=here("./Graph/유구 성격별/Fig0_test.tiff"), units='in', res=300, width=5, height=5)
-plot(testtt, HPD=TRUE, credMass=0.95, calendar="BCAD")
-dev.off()
-
-testtt
