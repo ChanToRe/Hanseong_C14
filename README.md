@@ -12,6 +12,9 @@
 ## Abstract
 This dataset compiles radiocarbon dates data from the Hanseong region (?–A.D. 475), the first capital of Baekje. The data were collected from archaeological excavation reports published since the 1980s, and reliability was secured through a process of standardization and four-step verification. Each case consists of uncalibrated dates, Lab ID, sample material, and archaeological context. This dataset provides a temporal framework for understanding the formation and development of Hanseong Baekje and supports integrated research on the early formation and development of Baekje through spatiotemporal and GIS-based analysis.
 
+## Coverage
+
+
 ## Datafield
 | FIELD | DESCRIPTION 
 | :-----   | :----- | 
