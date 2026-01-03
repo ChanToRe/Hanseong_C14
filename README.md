@@ -1,4 +1,6 @@
-# Radiocarbon Dates Data for an Integrated Study of the Baekje Hanseong Region <img src="https://github.com/user-attachments/assets/8c3c01fe-07db-402b-8346-a5cad01ba046" align="right" width="150"/> 
+<img src="https://github.com/user-attachments/assets/8c3c01fe-07db-402b-8346-a5cad01ba046" align="left" width="150"/> 
+
+# Radiocarbon Dates Data for an Integrated Study of the Baekje Hanseong Region
 
 ## Authors
 - Ju, Chanhyeok (Researcher, Seoul National Research Institute of Cultural Heritage)
