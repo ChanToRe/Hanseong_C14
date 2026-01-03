@@ -1,5 +1,7 @@
 <img src="https://github.com/user-attachments/assets/8c3c01fe-07db-402b-8346-a5cad01ba046" align="left" width="150"/> 
 
+<br>
+
 # Radiocarbon Dates Data for an Integrated Study of the Baekje Hanseong Region
 
 ## Authors
@@ -50,6 +52,4 @@ README.md
 The publication of this paper and dataset was carried out and funded with the support of the 2026 research project of the Seoul National Research Institute of Cultural Heritage, South Korea, entitled “Academic Investigation of the Hanseong Baekje Capital Sites” (NRICH-2505-A66F-1).
 
 ## Licence
-[Creative Common License CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-<br>
-[![licensebuttons by](https://licensebuttons.net/l/by/3.0/88x31.png)](https://creativecommons.org/licenses/by/4.0)
+[![licensebuttons by](https://licensebuttons.net/l/by/3.0/88x31.png)](https://creativecommons.org/licenses/by/4.0) [Creative Common License CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
