@@ -4,7 +4,7 @@ library(here)
 # Data Load
 data <- read.csv(here("./Data/AMS_Master_en.csv"))
 
-########## Hanseong Region ##########
+########## Hanseong ##########
 # Data Processing
 caldates <- calibrate(x=data$BP, errors=data$Error, calCurves="intcal20", normalised=FALSE, verbose=FALSE)
 bins <- binPrep(sites=data$SiteName, ages=data$BP, h=5)
@@ -16,10 +16,10 @@ spd.raw <- spd(x=caldates, bins=bins, timeRange=c(3000, 1000))
 spd.rol <- spd(x=caldates, bins=bins, timeRange=c(3000, 1000), runm=50)
 
 # Plot
-tiff(file=here("./Graph/SPD(Hanseong Region).tiff"), units='in', res=300, width=7, height=2.5)
+tiff(file=here("./Graph/SPD(Hanseong).tiff"), units='in', res=300, width=7, height=2.5)
 plot(spd.rol, calendar = "BCAD")
 plot(spd.raw, add=TRUE, calendar="BCAD", type="simple", col="black", lwd=1, lty=2)
-title(main="SPD(Hanseong Region)", line=0.5, cex.main=1)
+title(main="SPD(Hanseong)", line=0.5, cex.main=1)
 legend("topleft",legend=c("Observed SPD", "Rolling-Mean : 50"),col=c(1,"grey"),lty=c(2,1),lwd=c(1,5),cex=0.8,bg="white")
 dev.off()
 
@@ -115,12 +115,12 @@ dev.off()
 
 ########## All ##########
 # Plot
-tiff(file=here("./Graph/SPD(All).tiff"), units='in', res=300, width=7, height=4)
+tiff(file=here("./Graph/Figure 3. Summed Probability Distributions (SPD) of radiocarbon dates by site in the Hanseong.tiff"), units='in', res=300, width=7, height=4)
 plot(pnts_spd.rol, calendar = "BCAD", type="simple", col="red", lwd=2, lty=1)
 plot(mcts_spd.rol, add=TRUE, calendar = "BCAD", type="simple", col="blue", lwd=2, lty=1)
 plot(tombs_spd.rol, add=TRUE, calendar = "BCAD", type="simple", col="green", lwd=2, lty=1)
 plot(outside_spd.rol, add=TRUE, calendar = "BCAD", type="simple", col="orange", lwd=2, lty=1)
-title(main="SPD(All)", line=0.5, cex.main=1)
+title(main="SPD(Hanseong)", line=0.5, cex.main=1)
 legend("topleft",legend=c("Pungnaptoseong", "Mongchontoseong", "Tombs", "Outside of PNTS&MCTS"),
 col=c("red", "blue", "green ", "orange"),lwd=2, cex=0.8, bg="white")
 dev.off()
