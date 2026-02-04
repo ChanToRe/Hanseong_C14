@@ -26,7 +26,7 @@ CH_data$SiteName <- "Cheonho"
 combined_data <- rbind(PNTS_data, MCTS_data, SCT_data, SC_data, BI_data, AS_data, CH_data)
 counts <- table(combined_data$SiteName)
 
-tiff(file=here("./Graph/Figure 2. Number of samples(Hanseong).tiff"), units='in', res=300, width=5, height=5)
+tiff(file=here("./Graph/Figure 3. Number of samples(Hanseong).tiff"), units='in', res=300, width=5, height=5)
 par(mar = c(8, 4, 4, 2))
 x_pos <- barplot(counts, 
                  main = "Number of samples(n=329)",

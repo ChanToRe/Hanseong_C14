@@ -115,7 +115,7 @@ dev.off()
 
 ########## All ##########
 # Plot
-tiff(file=here("./Graph/Figure 3. Summed Probability Distributions (SPD) of radiocarbon dates by site in the Hanseong.tiff"), units='in', res=300, width=7, height=4)
+tiff(file=here("./Graph/Figure 4. Summed Probability Distributions (SPD) of radiocarbon dates by site in the Hanseong.tiff"), units='in', res=300, width=7, height=4)
 plot(pnts_spd.rol, calendar = "BCAD", type="simple", col="red", lwd=2, lty=1)
 plot(mcts_spd.rol, add=TRUE, calendar = "BCAD", type="simple", col="blue", lwd=2, lty=1)
 plot(tombs_spd.rol, add=TRUE, calendar = "BCAD", type="simple", col="green", lwd=2, lty=1)
