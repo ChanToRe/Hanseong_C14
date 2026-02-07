@@ -1,0 +1,20 @@
+Coordinate System
+
+Projected coordinate system: EPSG:5186 (Korea 2002 / Central Belt)  
+Datum: Korea Geodetic Datum 2002  
+
+Spatial extent (meters):
+Western boundary : 208000  
+Eastern boundary : 212000  
+Southern boundary : 544000  
+Northern boundary : 552000  
+
+Columns:
+Easting – X coordinate (meters)  
+Northing – Y coordinate (meters)  
+
+These coordinates represent approximate sampling locations derived from georeferenced excavation maps rather than survey-grade GPS measurements.  
+
+Estimated positional accuracy is on the order of several meters.  
+
+Coordinates should therefore be interpreted as spatial references for analytical visualization and pattern analysis, not as exact point locations.
